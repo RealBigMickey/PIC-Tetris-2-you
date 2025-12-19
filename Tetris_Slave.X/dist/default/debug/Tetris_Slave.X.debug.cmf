@@ -1,0 +1,2168 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+idloc IDLOC 5 200000 200000 8 1 1
+init CODE 0 246 246 4 1 2
+reset_vec CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 E 1 1
+$dist/default/debug\Tetris_Slave.X.debug.o
+intcodelo CODE 0 18 18 22E 1 2
+cinit CODE 0 35DC 35DC 9E 1 2
+idloc IDLOC 5 200000 200000 8 1 1
+text0 CODE 0 108C 108C 1EE 1 2
+text1 CODE 0 3FEE 3FEE 1C 1 2
+text2 CODE 0 1A1A 1A1A 1AA 1 2
+text3 CODE 0 2942 2942 10C 1 2
+text4 CODE 0 367A 367A 98 1 2
+text5 CODE 0 406C 406C A 1 2
+text6 CODE 0 4076 4076 8 1 2
+text7 CODE 0 22F4 22F4 154 1 2
+text8 CODE 0 2A4E 2A4E F6 1 2
+text9 CODE 0 3492 3492 A6 1 2
+text10 CODE 0 3D3C 3D3C 60 1 2
+text11 CODE 0 26DE 26DE 132 1 2
+text12 CODE 0 127A 127A 1EA 1 2
+text13 CODE 0 59E 59E 25E 1 2
+text14 CODE 0 3952 3952 78 1 2
+text15 CODE 0 3E86 3E86 44 1 2
+text16 CODE 0 3E40 3E40 46 1 2
+text17 CODE 0 1464 1464 1EA 1 2
+text18 CODE 0 3060 3060 BC 1 2
+text19 CODE 0 4080 4080 2 1 2
+text20 CODE 0 3F84 3F84 36 1 2
+text21 CODE 0 2EDA 2EDA C4 1 2
+text22 CODE 0 37AA 37AA 90 1 2
+text23 CODE 0 2D2C 2D2C DC 1 2
+text24 CODE 0 1ED0 1ED0 174 1 2
+text25 CODE 0 E7A E7A 212 1 2
+text26 CODE 0 24A 24A 354 1 2
+text27 CODE 0 2044 2044 158 1 2
+text28 CODE 0 3CD6 3CD6 66 1 2
+text29 CODE 0 2E08 2E08 D2 1 2
+text30 CODE 0 7FC 7FC 22E 1 2
+text31 CODE 0 31D6 31D6 B0 1 2
+text32 CODE 0 3B24 3B24 70 1 2
+text33 CODE 0 3286 3286 B0 1 2
+text34 CODE 0 4036 4036 12 1 2
+text35 CODE 0 2B44 2B44 F6 1 2
+text36 CODE 0 3B94 3B94 6C 1 2
+text37 CODE 0 400A 400A 16 1 2
+text38 CODE 0 3A40 3A40 74 1 2
+text39 CODE 0 3DF8 3DF8 48 1 2
+text40 CODE 0 3D9C 3D9C 5C 1 2
+text42 CODE 0 1BC4 1BC4 194 1 2
+text43 CODE 0 4020 4020 16 1 2
+text44 CODE 0 4048 4048 12 1 2
+text45 CODE 0 4082 4082 2 1 2
+text46 CODE 0 259A 259A 144 1 2
+text47 CODE 0 2448 2448 152 1 2
+text48 CODE 0 2C3A 2C3A F2 1 2
+text49 CODE 0 3538 3538 A4 1 2
+text50 CODE 0 164E 164E 1EA 1 2
+text51 CODE 0 383A 383A 8E 1 2
+text52 CODE 0 2810 2810 132 1 2
+text53 CODE 0 3712 3712 98 1 2
+text54 CODE 0 A2A A2A 22A 1 2
+text55 CODE 0 3336 3336 AE 1 2
+text56 CODE 0 3C00 3C00 6C 1 2
+text57 CODE 0 3C6C 3C6C 6A 1 2
+text58 CODE 0 219C 219C 158 1 2
+text59 CODE 0 C54 C54 226 1 2
+text60 CODE 0 39CA 39CA 76 1 2
+text61 CODE 0 3F0C 3F0C 40 1 2
+text62 CODE 0 3ECA 3ECA 42 1 2
+text63 CODE 0 1838 1838 1E2 1 2
+text64 CODE 0 311C 311C BA 1 2
+text65 CODE 0 4084 4084 2 1 2
+text66 CODE 0 3FBA 3FBA 34 1 2
+text67 CODE 0 33E4 33E4 AE 1 2
+text68 CODE 0 2F9E 2F9E C2 1 2
+text69 CODE 0 38C8 38C8 8A 1 2
+text70 CODE 0 3F4C 3F4C 38 1 2
+text71 CODE 0 1D58 1D58 178 1 2
+idataCOMRAM CODE 0 407E 407E 2 1 1
+cstackCOMRAM COMRAM 1 1 1 69 1 1
+cstackBANK0 BANK0 1 80 80 4D 1 1
+cstackBANK1 BANK1 1 1F0 1F0 C 1 1
+cstackBANK3 BANK3 1 300 300 D 1 1
+temp COMRAM 1 7C 7C 1 1 1
+bssBANK0 BANK0 1 CD CD 17 1 1
+bssBANK1 BANK1 1 100 100 80 1 1
+bssBANK2 BANK2 1 200 200 100 1 1
+idataBANK0 CODE 0 405A 405A 11 1 1
+idataBANK1 CODE 0 3AB4 3AB4 70 1 1
+dataBANK0 BANK0 1 E4 E4 11 1 1
+dataBANK1 BANK1 1 180 180 70 1 1
+dataCOMRAM COMRAM 1 7A 7A 2 1 1
+bssCOMRAM COMRAM 1 6A 6A 10 1 1
+mediumconst MEDIUMCONST 0 7664 7664 75C 1 2
+config CONFIG 4 300000 300000 E 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM F5-FF 1
+RAM 1FC-1FF 1
+RAM 30D-5F3 1
+SFR F80-F9B 1
+SFR F9D-FD3 1
+SFR FD5-FDA 1
+SFR FE0-FE2 1
+SFR FE8-FEA 1
+SFR FF0-FFC 1
+BANK0 F5-FF 1
+BANK1 1FC-1FF 1
+BANK3 30D-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5F3 1
+CONST 4-17 1
+CONST 406B-406B 1
+CONST 4086-7663 1
+SMALLCONST 406B-406B 1
+SMALLCONST 4086-7663 1
+CODE 4-17 1
+CODE 406B-406B 1
+CODE 4086-7663 1
+BIGRAM 7D-7F 1
+BIGRAM F5-FF 1
+BIGRAM 1FC-1FF 1
+BIGRAM 30D-5F3 1
+BIGSFR F80-F9B 1
+BIGSFR F9D-FD3 1
+BIGSFR FD5-FDA 1
+BIGSFR FE0-FE2 1
+BIGSFR FE8-FEA 1
+BIGSFR FF0-FFC 1
+COMRAM 7D-7F 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 406B-406B 1
+MEDIUMCONST 4086-7663 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\Tetris_Slave.X.debug.o
+18 intcodelo CODE >12998:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+18 intcodelo CODE >91:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+56 intcodelo CODE >92:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+5A intcodelo CODE >93:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+5A intcodelo CODE >94:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+68 intcodelo CODE >95:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+6A intcodelo CODE >99:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+9E intcodelo CODE >100:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+BC intcodelo CODE >102:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+EA intcodelo CODE >103:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F2 intcodelo CODE >104:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F2 intcodelo CODE >107:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+128 intcodelo CODE >108:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+14A intcodelo CODE >112:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+17E intcodelo CODE >113:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+19C intcodelo CODE >115:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1E8 intcodelo CODE >116:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1FA intcodelo CODE >117:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1FE intcodelo CODE >118:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+202 intcodelo CODE >121:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+206 intcodelo CODE >123:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1D58 text71 CODE >5:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1D58 text71 CODE >25:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1D64 text71 CODE >26:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1D70 text71 CODE >27:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1D78 text71 CODE >28:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1D80 text71 CODE >30:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1E34 text71 CODE >34:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1E3C text71 CODE >35:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1E44 text71 CODE >37:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1E56 text71 CODE >38:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1E5C text71 CODE >39:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1E68 text71 CODE >40:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1E84 text71 CODE >44:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1E96 text71 CODE >48:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1EA6 text71 CODE >49:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1EB2 text71 CODE >50:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1EB6 text71 CODE >51:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+1ECE text71 CODE >57:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memmove.c
+3F4C text70 CODE >3:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+3F4C text70 CODE >5:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+3F54 text70 CODE >6:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+3F58 text70 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+3F68 text70 CODE >6:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+3F82 text70 CODE >10:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+38C8 text69 CODE >1057:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+38C8 text69 CODE >1058:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+38D4 text69 CODE >1059:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+38E2 text69 CODE >1060:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+3910 text69 CODE >1061:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+3950 text69 CODE >1062:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+2F9E text68 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F9E text68 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FA0 text68 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FAE text68 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FB6 text68 CODE >16:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FBA text68 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FC8 text68 CODE >19:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FD0 text68 CODE >20:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FD4 text68 CODE >22:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FDC text68 CODE >23:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FEE text68 CODE >24:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FF2 text68 CODE >25:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FF6 text68 CODE >26:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FFC text68 CODE >27:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2FFE text68 CODE >25:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+300C text68 CODE >30:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+3012 text68 CODE >31:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+3028 text68 CODE >32:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+3030 text68 CODE >33:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+3032 text68 CODE >35:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+3038 text68 CODE >36:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+303E text68 CODE >38:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+304E text68 CODE >39:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+3056 text68 CODE >40:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+305E text68 CODE >41:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+33E4 text67 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+33E4 text67 CODE >12:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+33E6 text67 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+33F4 text67 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+33FC text67 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3400 text67 CODE >17:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+340E text67 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3416 text67 CODE >19:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3428 text67 CODE >20:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+342C text67 CODE >21:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3430 text67 CODE >22:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3436 text67 CODE >23:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3438 text67 CODE >21:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3446 text67 CODE >26:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+345C text67 CODE >27:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3464 text67 CODE >28:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+346A text67 CODE >29:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3470 text67 CODE >31:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3480 text67 CODE >32:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3488 text67 CODE >33:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3490 text67 CODE >34:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3FBA text66 CODE >1:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+3FBA text66 CODE >3:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+3FEC text66 CODE >4:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+4084 text65 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\putch.c
+4084 text65 CODE >9:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\putch.c
+311C text64 CODE >8:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+311C text64 CODE >12:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+313C text64 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+3142 text64 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+3146 text64 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+3194 text64 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+31C4 text64 CODE >20:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+31D4 text64 CODE >24:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+1838 text63 CODE >1177:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1838 text63 CODE >1201:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+185A text63 CODE >1202:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1866 text63 CODE >1204:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1874 text63 CODE >1205:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1878 text63 CODE >1291:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1886 text63 CODE >1361:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+18BE text63 CODE >1404:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+18D6 text63 CODE >1406:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+18F0 text63 CODE >1408:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+18F4 text63 CODE >1409:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1908 text63 CODE >1411:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+193C text63 CODE >1412:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1958 text63 CODE >1416:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+197A text63 CODE >1417:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+199A text63 CODE >1418:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+19B0 text63 CODE >1424:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+19D0 text63 CODE >1423:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+19E6 text63 CODE >1806:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+19F6 text63 CODE >1811:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1A18 text63 CODE >1814:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3ECA text62 CODE >1817:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3ECA text62 CODE >1822:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3ED2 text62 CODE >1826:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3ED6 text62 CODE >1830:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3EE6 text62 CODE >1826:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3F02 text62 CODE >1835:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3F0A text62 CODE >1840:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3F0C text61 CODE >9:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3F0C text61 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3F10 text61 CODE >16:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3F18 text61 CODE >17:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3F20 text61 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3F28 text61 CODE >19:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3F3C text61 CODE >20:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3F4A text61 CODE >23:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+39CA text60 CODE >54:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+39CA text60 CODE >55:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+39D2 text60 CODE >56:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+39DA text60 CODE >57:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+39E2 text60 CODE >58:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3A14 text60 CODE >59:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3A22 text60 CODE >60:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3A26 text60 CODE >61:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3A3E text60 CODE >62:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C54 text59 CODE >130:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C54 text59 CODE >131:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C5C text59 CODE >132:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C64 text59 CODE >133:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C68 text59 CODE >134:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C70 text59 CODE >135:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+CB8 text59 CODE >136:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+CD8 text59 CODE >137:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+CE8 text59 CODE >138:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+CF0 text59 CODE >139:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+CF4 text59 CODE >140:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+D84 text59 CODE >141:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+D8A text59 CODE >139:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+DB2 text59 CODE >143:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+DE8 text59 CODE >144:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+DEC text59 CODE >145:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+DF0 text59 CODE >146:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+DF4 text59 CODE >147:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+E30 text59 CODE >149:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+E50 text59 CODE >150:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+E78 text59 CODE >151:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+219C text58 CODE >102:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+219C text58 CODE >103:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+21A4 text58 CODE >104:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+21AC text58 CODE >105:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+21E8 text58 CODE >106:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+21F6 text58 CODE >107:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2202 text58 CODE >108:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+226A text58 CODE >109:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+22B0 text58 CODE >111:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+22D0 text58 CODE >112:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+22F0 text58 CODE >113:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+22F2 text58 CODE >114:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3C6C text57 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3C6C text57 CODE >119:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3C7C text57 CODE >121:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3C8A text57 CODE >122:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3C9A text57 CODE >123:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3CA4 text57 CODE >124:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3CAE text57 CODE >125:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3CC4 text57 CODE >128:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3CD4 text57 CODE >129:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3C00 text56 CODE >11:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+3C00 text56 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+3C3C text56 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+3C6A text56 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+3336 text55 CODE >64:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3336 text55 CODE >65:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+333E text55 CODE >66:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3346 text55 CODE >67:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+33A2 text55 CODE >68:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+33C2 text55 CODE >69:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+33E2 text55 CODE >70:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A2A text54 CODE >170:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A2A text54 CODE >171:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A2E text54 CODE >173:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A4A text54 CODE >175:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A52 text54 CODE >176:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A66 text54 CODE >177:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A86 text54 CODE >180:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A8E text54 CODE >181:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+AB2 text54 CODE >182:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+AC6 text54 CODE >183:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+AE6 text54 CODE >184:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+AFA text54 CODE >185:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+B1A text54 CODE >187:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+B22 text54 CODE >191:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+B3A text54 CODE >194:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+B60 text54 CODE >195:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+B88 text54 CODE >196:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+BB2 text54 CODE >197:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+BDC text54 CODE >198:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C06 text54 CODE >199:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C30 text54 CODE >200:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C42 text54 CODE >202:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C4A text54 CODE >203:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+C52 text54 CODE >204:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3712 text53 CODE >153:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3712 text53 CODE >154:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+371A text53 CODE >155:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3720 text53 CODE >156:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3728 text53 CODE >157:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3730 text53 CODE >158:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3764 text53 CODE >159:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3784 text53 CODE >160:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+37A4 text53 CODE >161:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+37A8 text53 CODE >162:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2810 text52 CODE >116:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2810 text52 CODE >117:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2818 text52 CODE >118:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2820 text52 CODE >119:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+285C text52 CODE >120:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+286A text52 CODE >121:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2876 text52 CODE >122:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+28CA text52 CODE >123:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2900 text52 CODE >126:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2920 text52 CODE >127:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2940 text52 CODE >128:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+383A text51 CODE >227:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+383A text51 CODE >229:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3856 text51 CODE >234:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3856 text51 CODE >236:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3872 text51 CODE >237:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3882 text51 CODE >239:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3896 text51 CODE >240:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+389E text51 CODE >241:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+38A2 text51 CODE >242:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+38A6 text51 CODE >243:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+38AA text51 CODE >244:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+38BE text51 CODE >245:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+38C2 text51 CODE >246:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+38C6 text51 CODE >249:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+164E text50 CODE >307:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+164E text50 CODE >310:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1656 text50 CODE >311:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+165E text50 CODE >312:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+16C6 text50 CODE >313:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+16E6 text50 CODE >314:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1706 text50 CODE >318:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+170E text50 CODE >319:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1716 text50 CODE >320:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1752 text50 CODE >321:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1760 text50 CODE >322:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+176C text50 CODE >325:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+17C0 text50 CODE >326:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+17F6 text50 CODE >329:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1816 text50 CODE >330:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1836 text50 CODE >331:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3538 text49 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3538 text49 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3548 text49 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+355E text49 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3562 text49 CODE >16:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3566 text49 CODE >17:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3570 text49 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3572 text49 CODE >16:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3580 text49 CODE >21:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+358A text49 CODE >22:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+35A8 text49 CODE >23:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+35B8 text49 CODE >24:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+35BA text49 CODE >26:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+35C4 text49 CODE >27:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+35CA text49 CODE >28:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+35CA text49 CODE >29:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+35DA text49 CODE >30:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+2C3A text48 CODE >68:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C3A text48 CODE >70:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C4C text48 CODE >71:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C4E text48 CODE >72:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C56 text48 CODE >74:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C56 text48 CODE >76:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C58 text48 CODE >77:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C5A text48 CODE >79:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2CBA text48 CODE >80:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2CE0 text48 CODE >82:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2CE4 text48 CODE >84:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2CFC text48 CODE >85:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2D14 text48 CODE >86:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2D28 text48 CODE >88:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2D2A text48 CODE >89:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2448 text47 CODE >109:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2448 text47 CODE >110:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2450 text47 CODE >113:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2462 text47 CODE >114:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+246A text47 CODE >115:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+248C text47 CODE >116:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2490 text47 CODE >117:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2498 text47 CODE >118:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+24BA text47 CODE >123:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+24EE text47 CODE >124:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+250C text47 CODE >126:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2558 text47 CODE >127:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+257C text47 CODE >128:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+258C text47 CODE >130:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2590 text47 CODE >131:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2594 text47 CODE >134:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2596 text47 CODE >137:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2598 text47 CODE >138:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+259A text46 CODE >137:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+259C text46 CODE >138:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25B4 text46 CODE >141:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25B8 text46 CODE >142:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25D4 text46 CODE >143:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25E0 text46 CODE >149:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25E8 text46 CODE >150:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25EC text46 CODE >151:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25F0 text46 CODE >152:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25F4 text46 CODE >153:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25F8 text46 CODE >154:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+25FC text46 CODE >154:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2604 text46 CODE >154:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+260C text46 CODE >154:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2616 text46 CODE >155:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+262C text46 CODE >158:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2634 text46 CODE >159:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2638 text46 CODE >160:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+263C text46 CODE >162:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2648 text46 CODE >163:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+264C text46 CODE >165:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2658 text46 CODE >166:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+265C text46 CODE >168:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2668 text46 CODE >169:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+266C text46 CODE >171:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2678 text46 CODE >172:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+267C text46 CODE >173:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2680 text46 CODE >173:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2688 text46 CODE >173:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2690 text46 CODE >173:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+2698 text46 CODE >173:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+26A0 text46 CODE >173:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+26AA text46 CODE >174:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+26BE text46 CODE >175:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+26D0 text46 CODE >176:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+26D8 text46 CODE >177:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+26DC text46 CODE >182:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+4082 text45 CODE >126:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+4082 text45 CODE >133:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+4048 text44 CODE >1082:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+4048 text44 CODE >1083:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+4056 text44 CODE >1084:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+4058 text44 CODE >1085:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+4020 text43 CODE >1046:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+4022 text43 CODE >1047:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+4030 text43 CODE >1048:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+4034 text43 CODE >1049:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BC4 text42 CODE >1108:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BC4 text42 CODE >1109:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BD2 text42 CODE >1111:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BE0 text42 CODE >1112:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BE2 text42 CODE >1113:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BE4 text42 CODE >1114:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BE6 text42 CODE >1116:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BEC text42 CODE >1118:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BFE text42 CODE >1121:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1C12 text42 CODE >1124:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1C18 text42 CODE >1125:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1C1E text42 CODE >1126:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1C24 text42 CODE >1127:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1C34 text42 CODE >1128:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1C38 text42 CODE >1132:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1C70 text42 CODE >1135:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1C7E text42 CODE >1137:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1C92 text42 CODE >1138:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1CB8 text42 CODE >1139:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1CCA text42 CODE >1140:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1CCE text42 CODE >1145:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1CE2 text42 CODE >1146:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1CFE text42 CODE >1148:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D0E text42 CODE >1150:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D24 text42 CODE >1152:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D28 text42 CODE >1152:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D30 text42 CODE >1152:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D38 text42 CODE >1152:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D40 text42 CODE >1152:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D4A text42 CODE >1153:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D4E text42 CODE >1155:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D54 text42 CODE >1157:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1D56 text42 CODE >1158:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+3D9C text40 CODE >48:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DA0 text40 CODE >49:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DAA text40 CODE >50:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DAC text40 CODE >53:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DD8 text40 CODE >56:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DDA text40 CODE >57:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DDC text40 CODE >58:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DDE text40 CODE >59:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DE0 text40 CODE >60:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DF6 text40 CODE >61:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DF8 text39 CODE >66:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DFC text39 CODE >67:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3DFE text39 CODE >69:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3E08 text39 CODE >70:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3E0E text39 CODE >71:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3E16 text39 CODE >72:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3E38 text39 CODE >74:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3E3A text39 CODE >75:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3E3C text39 CODE >76:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3E3E text39 CODE >77:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3A40 text38 CODE >79:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3A40 text38 CODE >81:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3A4C text38 CODE >82:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3A58 text38 CODE >83:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3A64 text38 CODE >84:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3A70 text38 CODE >85:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3A7C text38 CODE >89:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3A86 text38 CODE >90:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3A90 text38 CODE >91:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3AB2 text38 CODE >92:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+400A text37 CODE >34:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+400A text37 CODE >35:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+400E text37 CODE >36:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+4012 text37 CODE >38:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+4014 text37 CODE >39:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+4016 text37 CODE >40:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+4018 text37 CODE >42:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+401A text37 CODE >43:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+401C text37 CODE >44:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+401E text37 CODE >45:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+3B94 text36 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3B94 text36 CODE >119:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3BA6 text36 CODE >121:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3BB4 text36 CODE >122:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3BC4 text36 CODE >123:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3BCE text36 CODE >124:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3BD8 text36 CODE >125:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3BEE text36 CODE >128:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+3BFE text36 CODE >129:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+2B44 text35 CODE >36:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B44 text35 CODE >38:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B46 text35 CODE >40:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B48 text35 CODE >41:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B4A text35 CODE >42:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B4C text35 CODE >43:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B50 text35 CODE >44:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B52 text35 CODE >49:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B86 text35 CODE >50:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2BA4 text35 CODE >51:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2BF2 text35 CODE >52:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C16 text35 CODE >53:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C26 text35 CODE >55:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C2A text35 CODE >56:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C2E text35 CODE >59:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C30 text35 CODE >60:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C32 text35 CODE >61:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C34 text35 CODE >62:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C36 text35 CODE >64:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2C38 text35 CODE >65:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4036 text34 CODE >23:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4036 text34 CODE >26:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4038 text34 CODE >29:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4040 text34 CODE >32:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4044 text34 CODE >33:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4046 text34 CODE >34:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+3286 text33 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3286 text33 CODE >12:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+328A text33 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3298 text33 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32A0 text33 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32A4 text33 CODE >17:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32B2 text33 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32BA text33 CODE >19:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32CC text33 CODE >20:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32D0 text33 CODE >21:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32D4 text33 CODE >22:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32DA text33 CODE >23:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32DC text33 CODE >21:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+32EA text33 CODE >26:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3300 text33 CODE >27:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3308 text33 CODE >28:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+330E text33 CODE >29:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3314 text33 CODE >31:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3324 text33 CODE >32:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+332C text33 CODE >33:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3334 text33 CODE >34:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+3B24 text32 CODE >11:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+3B24 text32 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+3B64 text32 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+3B92 text32 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+31D6 text31 CODE >64:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+31D6 text31 CODE >65:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+31E0 text31 CODE >66:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+31E8 text31 CODE >67:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3244 text31 CODE >68:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3264 text31 CODE >69:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3284 text31 CODE >70:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+7FC text30 CODE >170:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+7FC text30 CODE >171:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+800 text30 CODE >173:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+81C text30 CODE >175:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+824 text30 CODE >176:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+838 text30 CODE >177:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+858 text30 CODE >180:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+860 text30 CODE >181:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+886 text30 CODE >182:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+89C text30 CODE >183:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+8BC text30 CODE >184:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+8D0 text30 CODE >185:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+8F0 text30 CODE >187:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+8F8 text30 CODE >191:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+910 text30 CODE >194:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+936 text30 CODE >195:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+95E text30 CODE >196:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+988 text30 CODE >197:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+9B2 text30 CODE >198:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+9DC text30 CODE >199:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A06 text30 CODE >200:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A18 text30 CODE >202:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A20 text30 CODE >203:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+A28 text30 CODE >204:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E08 text29 CODE >252:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E0C text29 CODE >253:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E10 text29 CODE >254:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E14 text29 CODE >255:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E24 text29 CODE >256:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E34 text29 CODE >257:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E44 text29 CODE >258:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E54 text29 CODE >259:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E64 text29 CODE >260:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E74 text29 CODE >261:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E84 text29 CODE >262:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E90 text29 CODE >262:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2E9E text29 CODE >262:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2EA6 text29 CODE >262:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2EAE text29 CODE >262:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2EB6 text29 CODE >262:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2EBE text29 CODE >262:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2EC6 text29 CODE >262:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2ECE text29 CODE >262:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2ED8 text29 CODE >263:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3CD6 text28 CODE >267:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3CD6 text28 CODE >269:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3CEC text28 CODE >274:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3CF0 text28 CODE >276:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3CF4 text28 CODE >278:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D04 text28 CODE >280:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D08 text28 CODE >281:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D0C text28 CODE >284:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D10 text28 CODE >288:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D16 text28 CODE >289:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D1A text28 CODE >290:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D1A text28 CODE >292:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D1E text28 CODE >294:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D22 text28 CODE >297:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D28 text28 CODE >300:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D32 text28 CODE >301:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D3A text28 CODE >303:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2044 text27 CODE >102:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2044 text27 CODE >103:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+204E text27 CODE >104:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2056 text27 CODE >105:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2092 text27 CODE >106:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+209E text27 CODE >107:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+20AA text27 CODE >108:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2112 text27 CODE >109:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2158 text27 CODE >111:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2178 text27 CODE >112:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2198 text27 CODE >113:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+219A text27 CODE >114:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+24A text26 CODE >72:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+24E text26 CODE >73:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+260 text26 CODE >75:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+268 text26 CODE >76:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+294 text26 CODE >77:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2C4 text26 CODE >78:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+320 text26 CODE >79:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+350 text26 CODE >80:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+370 text26 CODE >81:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+390 text26 CODE >83:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+398 text26 CODE >84:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3A0 text26 CODE >85:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3C8 text26 CODE >87:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D8 text26 CODE >88:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+408 text26 CODE >89:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+464 text26 CODE >90:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+494 text26 CODE >91:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+498 text26 CODE >92:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+4C8 text26 CODE >93:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+524 text26 CODE >94:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+554 text26 CODE >96:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+55E text26 CODE >86:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+57C text26 CODE >98:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+59C text26 CODE >100:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+E7A text25 CODE >31:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+E7A text25 CODE >33:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+E98 text25 CODE >34:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+EAA text25 CODE >35:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+EB8 text25 CODE >36:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+EBE text25 CODE >37:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+ED2 text25 CODE >38:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+ED8 text25 CODE >42:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+EEC text25 CODE >45:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F0A text25 CODE >46:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F18 text25 CODE >47:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F1E text25 CODE >48:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F32 text25 CODE >49:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F38 text25 CODE >53:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F4C text25 CODE >56:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F6A text25 CODE >57:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F7C text25 CODE >58:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F8A text25 CODE >59:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+F90 text25 CODE >60:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+FA4 text25 CODE >61:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+FAC text25 CODE >65:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+FC0 text25 CODE >68:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+FDE text25 CODE >69:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+FF0 text25 CODE >70:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+FFE text25 CODE >71:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1006 text25 CODE >72:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+101A text25 CODE >73:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1020 text25 CODE >77:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1034 text25 CODE >80:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1052 text25 CODE >81:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1064 text25 CODE >82:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1072 text25 CODE >83:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1076 text25 CODE >86:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+108A text25 CODE >88:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1ED0 text24 CODE >95:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1ED0 text24 CODE >97:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1EDA text24 CODE >101:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1EDC text24 CODE >102:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1EE4 text24 CODE >103:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1F2E text24 CODE >106:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1F4C text24 CODE >108:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1F6C text24 CODE >112:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1F6E text24 CODE >113:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1F76 text24 CODE >114:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1FC0 text24 CODE >116:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1FDE text24 CODE >118:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+1FFE text24 CODE >121:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+2000 text24 CODE >124:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+2006 text24 CODE >125:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+200E text24 CODE >128:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+2016 text24 CODE >129:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+201E text24 CODE >131:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+2020 text24 CODE >132:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+2042 text24 CODE >133:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/display.h
+2D2C text23 CODE >20:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/marquee.h
+2D2C text23 CODE >22:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/marquee.h
+2D36 text23 CODE >23:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/marquee.h
+2D3E text23 CODE >25:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/marquee.h
+2DC2 text23 CODE >26:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/marquee.h
+2DE2 text23 CODE >27:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/marquee.h
+2E02 text23 CODE >29:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/marquee.h
+2E06 text23 CODE >30:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/marquee.h
+37AA text22 CODE >1057:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+37AA text22 CODE >1058:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+37B8 text22 CODE >1059:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+37C6 text22 CODE >1060:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+37F6 text22 CODE >1061:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+3838 text22 CODE >1062:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+2EDA text21 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2EDA text21 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2EDE text21 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2EEC text21 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2EF4 text21 CODE >16:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2EF8 text21 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F06 text21 CODE >19:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F0E text21 CODE >20:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F12 text21 CODE >22:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F1A text21 CODE >23:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F2C text21 CODE >24:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F30 text21 CODE >25:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F34 text21 CODE >26:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F3A text21 CODE >27:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F3C text21 CODE >25:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F4A text21 CODE >30:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F50 text21 CODE >31:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F66 text21 CODE >32:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F6E text21 CODE >33:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F70 text21 CODE >35:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F76 text21 CODE >36:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F7C text21 CODE >38:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F8C text21 CODE >39:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F94 text21 CODE >40:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+2F9C text21 CODE >41:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+3F84 text20 CODE >1:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+3F84 text20 CODE >3:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+3FB8 text20 CODE >4:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+4080 text19 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\putch.c
+4080 text19 CODE >9:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\putch.c
+3060 text18 CODE >8:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+3060 text18 CODE >12:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+3082 text18 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+3088 text18 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+308C text18 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+30DA text18 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+310A text18 CODE >20:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+311A text18 CODE >24:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+1464 text17 CODE >1177:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1464 text17 CODE >1201:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1488 text17 CODE >1202:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1494 text17 CODE >1204:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+14A0 text17 CODE >1205:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+14A4 text17 CODE >1291:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+14B2 text17 CODE >1361:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+14EA text17 CODE >1404:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1502 text17 CODE >1406:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+151C text17 CODE >1408:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1520 text17 CODE >1409:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1534 text17 CODE >1411:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+156A text17 CODE >1412:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1586 text17 CODE >1416:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+15AA text17 CODE >1417:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+15CA text17 CODE >1418:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+15E0 text17 CODE >1424:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1602 text17 CODE >1423:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+1618 text17 CODE >1806:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+162A text17 CODE >1811:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+164C text17 CODE >1814:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3E40 text16 CODE >1817:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3E40 text16 CODE >1822:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3E48 text16 CODE >1826:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3E4C text16 CODE >1830:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3E5E text16 CODE >1826:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3E7A text16 CODE >1835:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3E84 text16 CODE >1840:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+3E86 text15 CODE >9:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3E86 text15 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3E8C text15 CODE >16:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3E94 text15 CODE >17:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3E9C text15 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3EA4 text15 CODE >19:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3EB8 text15 CODE >20:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3EC8 text15 CODE >23:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+3952 text14 CODE >54:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3952 text14 CODE >55:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+395A text14 CODE >56:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3964 text14 CODE >57:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+396C text14 CODE >58:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+399E text14 CODE >59:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+39AC text14 CODE >60:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+39B0 text14 CODE >61:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+39C8 text14 CODE >62:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+59E text13 CODE >130:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+59E text13 CODE >131:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+5A8 text13 CODE >132:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+5B0 text13 CODE >133:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+5B4 text13 CODE >134:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+5BC text13 CODE >135:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+610 text13 CODE >136:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+632 text13 CODE >137:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+642 text13 CODE >138:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+64A text13 CODE >139:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+64E text13 CODE >140:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+6F4 text13 CODE >141:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+6FA text13 CODE >139:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+728 text13 CODE >143:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+760 text13 CODE >144:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+764 text13 CODE >145:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+768 text13 CODE >146:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+76E text13 CODE >147:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+7AC text13 CODE >149:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+7CE text13 CODE >150:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+7FA text13 CODE >151:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+127A text12 CODE >307:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+127A text12 CODE >310:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1284 text12 CODE >311:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+128C text12 CODE >312:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+12F4 text12 CODE >313:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1314 text12 CODE >314:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1334 text12 CODE >318:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+133C text12 CODE >319:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1344 text12 CODE >320:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1380 text12 CODE >321:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+138C text12 CODE >322:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1398 text12 CODE >325:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+13EC text12 CODE >326:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1422 text12 CODE >329:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1442 text12 CODE >330:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+1462 text12 CODE >331:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+26DE text11 CODE >116:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+26DE text11 CODE >117:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+26E8 text11 CODE >118:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+26F0 text11 CODE >119:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+272C text11 CODE >120:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2738 text11 CODE >121:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2744 text11 CODE >122:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2798 text11 CODE >123:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+27CE text11 CODE >126:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+27EE text11 CODE >127:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+280E text11 CODE >128:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D3C text10 CODE >207:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D3C text10 CODE >208:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D42 text10 CODE >210:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D56 text10 CODE >211:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D5E text10 CODE >212:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D62 text10 CODE >213:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D66 text10 CODE >216:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D6A text10 CODE >219:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D7E text10 CODE >220:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D88 text10 CODE >221:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D8C text10 CODE >222:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3D9A text10 CODE >225:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3492 text9 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3492 text9 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+34A4 text9 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+34BA text9 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+34BE text9 CODE >16:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+34C2 text9 CODE >17:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+34CC text9 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+34CE text9 CODE >16:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+34DC text9 CODE >21:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+34E6 text9 CODE >22:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3504 text9 CODE >23:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3514 text9 CODE >24:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3516 text9 CODE >26:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3520 text9 CODE >27:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3526 text9 CODE >28:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3526 text9 CODE >29:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+3536 text9 CODE >30:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+2A4E text8 CODE >68:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2A4E text8 CODE >70:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2A62 text8 CODE >71:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2A64 text8 CODE >72:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2A6C text8 CODE >74:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2A6C text8 CODE >76:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2A6E text8 CODE >77:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2A70 text8 CODE >79:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2AD2 text8 CODE >80:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2AF8 text8 CODE >82:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2AFC text8 CODE >84:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B14 text8 CODE >85:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B2C text8 CODE >86:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B40 text8 CODE >88:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2B42 text8 CODE >89:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+22F4 text7 CODE >109:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+22F4 text7 CODE >110:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+22FC text7 CODE >113:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+230E text7 CODE >114:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2316 text7 CODE >115:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2338 text7 CODE >116:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+233C text7 CODE >117:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2344 text7 CODE >118:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2366 text7 CODE >123:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+239A text7 CODE >124:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+23B8 text7 CODE >126:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2406 text7 CODE >127:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+242A text7 CODE >128:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+243A text7 CODE >130:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+243E text7 CODE >131:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2442 text7 CODE >134:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2444 text7 CODE >137:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+2446 text7 CODE >138:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4076 text6 CODE >91:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4076 text6 CODE >93:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4078 text6 CODE >94:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+407C text6 CODE >95:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+406C text5 CODE >97:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+406C text5 CODE >99:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+406E text5 CODE >102:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4072 text5 CODE >106:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+4074 text5 CODE >107:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/music.h
+367A text4 CODE >153:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+367A text4 CODE >154:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3682 text4 CODE >155:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3688 text4 CODE >156:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3690 text4 CODE >157:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3698 text4 CODE >158:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+36CC text4 CODE >159:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+36EC text4 CODE >160:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+370C text4 CODE >161:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+3710 text4 CODE >162:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/helpers.h
+2942 text3 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2942 text3 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2946 text3 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2954 text3 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2964 text3 CODE >16:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2968 text3 CODE >18:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2976 text3 CODE >19:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2986 text3 CODE >20:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+298A text3 CODE >22:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+299A text3 CODE >23:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+29B0 text3 CODE >24:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+29B4 text3 CODE >25:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+29B8 text3 CODE >26:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+29C2 text3 CODE >27:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+29C4 text3 CODE >25:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+29D2 text3 CODE >30:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+29DC text3 CODE >31:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+29FA text3 CODE >32:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2A0A text3 CODE >33:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2A0C text3 CODE >35:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2A16 text3 CODE >36:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2A1C text3 CODE >38:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2A2C text3 CODE >39:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2A3C text3 CODE >40:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+2A4C text3 CODE >41:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+1A1A text2 CODE >991:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1A1A text2 CODE >992:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1A1C text2 CODE >993:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1A1E text2 CODE >996:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1A20 text2 CODE >997:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1A22 text2 CODE >999:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1A58 text2 CODE >1000:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1A92 text2 CODE >1004:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1ABC text2 CODE >1005:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1AF4 text2 CODE >1006:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1B38 text2 CODE >1007:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1B70 text2 CODE >1009:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BA4 text2 CODE >1012:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BA8 text2 CODE >1013:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BAC text2 CODE >1016:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BAE text2 CODE >1017:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BB0 text2 CODE >1018:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BB2 text2 CODE >1019:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+1BC2 text2 CODE >1030:C:\Users\willi\MPLABXProjects\Tetris_Slave.X/lib.h
+3FEE text1 CODE >6:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+3FEE text1 CODE >8:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+4008 text1 CODE >9:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\rand.c
+108C text0 CODE >186:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+108C text0 CODE >187:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1090 text0 CODE >190:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1094 text0 CODE >191:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1096 text0 CODE >192:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1098 text0 CODE >193:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+109A text0 CODE >194:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+109C text0 CODE >195:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+109E text0 CODE >197:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10A2 text0 CODE >198:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10A6 text0 CODE >200:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10A8 text0 CODE >201:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10AA text0 CODE >202:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10AC text0 CODE >204:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10C6 text0 CODE >205:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10D0 text0 CODE >206:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10D8 text0 CODE >209:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10DC text0 CODE >210:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10E0 text0 CODE >211:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10E4 text0 CODE >214:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10EA text0 CODE >215:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+10F8 text0 CODE >216:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+110C text0 CODE >218:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+111A text0 CODE >220:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1124 text0 CODE >222:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+113E text0 CODE >227:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1152 text0 CODE >229:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1156 text0 CODE >230:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+115A text0 CODE >232:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+115E text0 CODE >234:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+117E text0 CODE >236:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+118A text0 CODE >232:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11A2 text0 CODE >243:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11B4 text0 CODE >245:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11BC text0 CODE >246:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11C0 text0 CODE >248:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11C4 text0 CODE >249:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11C8 text0 CODE >250:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11DA text0 CODE >253:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11EE text0 CODE >254:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11F2 text0 CODE >255:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11F6 text0 CODE >256:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+11FA text0 CODE >258:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1214 text0 CODE >260:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1228 text0 CODE >261:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1230 text0 CODE >268:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1244 text0 CODE >269:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1248 text0 CODE >270:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+124E text0 CODE >271:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1252 text0 CODE >272:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1256 text0 CODE >275:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+126C text0 CODE >276:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+1272 text0 CODE >277:C:\Users\willi\MPLABXProjects\Tetris_Slave.X\tetris.c
+35DC cinit CODE >2402:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35DC cinit CODE >2404:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35DC cinit CODE >2407:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35DC cinit CODE >2572:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35DE cinit CODE >2573:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35E0 cinit CODE >2574:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35E2 cinit CODE >2575:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35E4 cinit CODE >2576:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35E6 cinit CODE >2577:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35E8 cinit CODE >2578:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35EC cinit CODE >2579:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35F0 cinit CODE >2580:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35F0 cinit CODE >2581:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35F2 cinit CODE >2582:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35F6 cinit CODE >2583:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35F8 cinit CODE >2584:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35FA cinit CODE >2585:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35FC cinit CODE >2589:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+35FE cinit CODE >2590:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3600 cinit CODE >2591:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3602 cinit CODE >2592:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3604 cinit CODE >2593:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3606 cinit CODE >2594:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3608 cinit CODE >2595:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+360C cinit CODE >2596:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3610 cinit CODE >2597:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3610 cinit CODE >2598:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3612 cinit CODE >2599:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3616 cinit CODE >2600:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3618 cinit CODE >2601:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+361A cinit CODE >2602:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+361C cinit CODE >2606:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+361E cinit CODE >2607:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3620 cinit CODE >2608:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3622 cinit CODE >2609:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3624 cinit CODE >2610:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3626 cinit CODE >2611:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3628 cinit CODE >2612:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+362A cinit CODE >2613:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+362E cinit CODE >2614:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3630 cinit CODE >2615:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3634 cinit CODE >2619:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3638 cinit CODE >2620:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+363C cinit CODE >2621:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+363C cinit CODE >2622:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+363E cinit CODE >2623:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3640 cinit CODE >2624:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3642 cinit CODE >2625:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3644 cinit CODE >2626:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3646 cinit CODE >2627:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3648 cinit CODE >2630:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+364C cinit CODE >2631:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+364E cinit CODE >2632:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+364E cinit CODE >2633:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3650 cinit CODE >2634:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3652 cinit CODE >2635:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3654 cinit CODE >2638:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3658 cinit CODE >2639:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+365A cinit CODE >2640:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+365A cinit CODE >2641:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+365C cinit CODE >2642:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+365E cinit CODE >2643:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3660 cinit CODE >2646:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3664 cinit CODE >2647:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3666 cinit CODE >2648:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3666 cinit CODE >2649:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3668 cinit CODE >2650:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+366A cinit CODE >2651:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+366C cinit CODE >2657:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+366C cinit CODE >2659:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+366E cinit CODE >2660:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3670 cinit CODE >2662:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3672 cinit CODE >2663:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3674 cinit CODE >2664:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+3676 cinit CODE >2665:C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_music_stop 406C 0 CODE 0 text5 dist/default/debug\Tetris_Slave.X.debug.o
+i1_abs 3FBA 0 CODE 0 text66 dist/default/debug\Tetris_Slave.X.debug.o
+___awdiv@counter 8E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+__Lmediumconst 7664 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+_rotate_current_block 24A 0 CODE 0 text26 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_serialRead 405A 0 CODE 0 text44 dist/default/debug\Tetris_Slave.X.debug.o
+__Hspace_0 7DC0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Hspace_1 30D 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Hspace_2 0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Hspace_4 60000E 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+Timer0_Init@preload 98 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1_fputc 311C 0 CODE 0 text64 dist/default/debug\Tetris_Slave.X.debug.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+i1_putch 4084 0 CODE 0 text65 dist/default/debug\Tetris_Slave.X.debug.o
+_check_for_full_rows 59E 0 CODE 0 text13 dist/default/debug\Tetris_Slave.X.debug.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\Tetris_Slave.X.debug.o
+__mediumconst 7664 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Tetris_Slave.X.debug.o
+rotate_current_block@d 92 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+rotate_current_block@i 9C 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+rotate_current_block@j 9A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+rotate_current_block@k 98 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_set_current_block 33E4 0 CODE 0 text55 dist/default/debug\Tetris_Slave.X.debug.o
+__L__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_load_block_from_type 2EDA 0 CODE 0 text29 dist/default/debug\Tetris_Slave.X.debug.o
+_has_held_block E1 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+?_abs A2 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_Lo_ISR 246 0 CODE 0 intcodelo dist/default/debug\Tetris_Slave.X.debug.o
+main@t 1FA 0 BANK1 1 cstackBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+?_vfprintf B3 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+current_block_is_in_illegal_position@i 92 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+current_block_is_in_illegal_position@j 94 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+current_block_is_in_illegal_position@x 8E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+current_block_is_in_illegal_position@y 90 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Tetris_Slave.X.debug.o
+_TMR2 FCC 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+___sp 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+_dbuf 100 0 BANK1 1 bssBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+_main 108C 0 CODE 0 text0 dist/default/debug\Tetris_Slave.X.debug.o
+_note 7C2D 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+_prec CF 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_rand 3B24 0 CODE 0 text32 dist/default/debug\Tetris_Slave.X.debug.o
+_seed 76 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_song DF 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_tone 2A4E 0 CODE 0 text8 dist/default/debug\Tetris_Slave.X.debug.o
+abs@a A2 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+btemp 7C 0 COMRAM 1 temp dist/default/debug\Tetris_Slave.X.debug.o
+___stack_hi 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+___stack_lo 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+i1_rand 3C00 0 CODE 0 text56 dist/default/debug\Tetris_Slave.X.debug.o
+i1_tone 2C3A 0 CODE 0 text48 dist/default/debug\Tetris_Slave.X.debug.o
+i1abs@a 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+start 246 0 CODE 0 init C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+i1vfpfcnvrt@fmt 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1fputc@fp 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+processSerialReceive@c 5A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+?___lmul 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1___lmul@multiplicand 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1drop_block_from_sky@i_1071 1F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1compose_frame@c F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1compose_frame@r D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_check_inputs 108C 0 CODE 0 text25 dist/default/debug\Tetris_Slave.X.debug.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+check_for_full_rows@i 309 0 BANK3 1 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+check_for_full_rows@j 303 0 BANK3 1 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+check_for_full_rows@n 305 0 BANK3 1 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_padoru_note 7DB9 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_vfpfcnvrt 164E 0 CODE 0 text17 dist/default/debug\Tetris_Slave.X.debug.o
+___awmod@sign A1 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_T0CONbits FD5 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+reset_game@i 94 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+reset_game@j 96 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1_update_score 39CA 0 CODE 0 text60 dist/default/debug\Tetris_Slave.X.debug.o
+ttemp5 7D 0 COMRAM 1 temp dist/default/debug\Tetris_Slave.X.debug.o
+ttemp6 80 0 COMRAM 1 temp dist/default/debug\Tetris_Slave.X.debug.o
+ttemp7 84 0 COMRAM 1 temp dist/default/debug\Tetris_Slave.X.debug.o
+i1compose_frame@r_1095 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+rotate_current_block@i_1038 9E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__accesstop 80 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+intlevel0 0 0 CODE 0 text C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+intlevel1 0 0 CODE 0 text C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+intlevel2 0 0 CODE 0 text C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+intlevel3 0 0 CODE 0 text C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+__end_of_music_stop 4076 0 CODE 0 text5 dist/default/debug\Tetris_Slave.X.debug.o
+rotate_current_block@j_1039 96 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1check_for_full_rows@row_is_full 4C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+___aldiv@divisor 8E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_OSCCONbits FD3 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Tetris_Slave.X.debug.o
+wtemp8 7D 0 COMRAM 1 temp dist/default/debug\Tetris_Slave.X.debug.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug\Tetris_Slave.X.debug.o
+i1_serialPrint 38C8 0 CODE 0 text69 dist/default/debug\Tetris_Slave.X.debug.o
+___aldiv@sign 93 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_update_display 1ED0 0 CODE 0 text24 dist/default/debug\Tetris_Slave.X.debug.o
+___awdiv@sign 8F 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\Tetris_Slave.X.debug.o
+_vfpfcnvrt 1464 0 CODE 0 text17 dist/default/debug\Tetris_Slave.X.debug.o
+_onReadChar 259A 0 CODE 0 text46 dist/default/debug\Tetris_Slave.X.debug.o
+_onReadLine 4082 0 CODE 0 text45 dist/default/debug\Tetris_Slave.X.debug.o
+__pidataCOMRAM 407E 0 CODE 0 idataCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1___lldiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1_reset_game 3712 0 CODE 0 text53 dist/default/debug\Tetris_Slave.X.debug.o
+_MCU_Init 400A 0 CODE 0 text37 dist/default/debug\Tetris_Slave.X.debug.o
+tone@duty 9D 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+tone@freq 97 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_MAX7219_Write_All 3E40 0 CODE 0 text39 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_check_for_full_rows E7A 0 CODE 0 text59 dist/default/debug\Tetris_Slave.X.debug.o
+_ADCON1 FC1 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+check_for_full_rows@cleared 300 0 BANK3 1 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+___awdiv@dividend 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+onReadLine@line 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+main@my_slice 1F8 0 BANK1 1 cstackBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_CCPR1L FBE 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+i1vfprintf@ap 2D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1vfprintf@fp 2A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_MCU_Init 4020 0 CODE 0 text37 dist/default/debug\Tetris_Slave.X.debug.o
+_current_block_type E3 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Tetris_Slave.X.debug.o
+__end_of___lmul 3C00 0 CODE 0 text36 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_check_for_full_rows 7FC 0 CODE 0 text13 dist/default/debug\Tetris_Slave.X.debug.o
+MAX7219_Write_All@i 91 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+update_display@col 95 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Tetris_Slave.X.debug.o
+i1___awmod@divisor 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+main@row 1FB 0 BANK1 1 cstackBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+i1_check_for_full_rows C54 0 CODE 0 text59 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_update_score 3A40 0 CODE 0 text60 dist/default/debug\Tetris_Slave.X.debug.o
+_interval 7B65 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1___awdiv 3060 0 CODE 0 text68 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1___awmod 3492 0 CODE 0 text67 dist/default/debug\Tetris_Slave.X.debug.o
+_BAUDCONbits FB8 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Hmediumconst 7DC0 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1___lldiv 35DC 0 CODE 0 text49 dist/default/debug\Tetris_Slave.X.debug.o
+i1_vfprintf 3ECA 0 CODE 0 text62 dist/default/debug\Tetris_Slave.X.debug.o
+__Hintcodelo 246 0 CODE 0 intcodelo dist/default/debug\Tetris_Slave.X.debug.o
+i1check_for_full_rows@cleared 4A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_compose_frame 1838 0 CODE 0 text50 dist/default/debug\Tetris_Slave.X.debug.o
+___awdiv@divisor 8C 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of___aldiv 2A4E 0 CODE 0 text3 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of___awdiv 2F9E 0 CODE 0 text21 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of___awmod 3336 0 CODE 0 text33 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of___lldiv 3538 0 CODE 0 text9 dist/default/debug\Tetris_Slave.X.debug.o
+_game_speed_ticks F4 0 BANK0 1 dataBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_Timer2_PWM_Init 4048 0 CODE 0 text34 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_interval 7C2D 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+i1vfprintf@cfmt 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_update_display 2044 0 CODE 0 text24 dist/default/debug\Tetris_Slave.X.debug.o
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_serialBufferLen 75 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1___awdiv 2F9E 0 CODE 0 text68 dist/default/debug\Tetris_Slave.X.debug.o
+i1___awmod 33E4 0 CODE 0 text67 dist/default/debug\Tetris_Slave.X.debug.o
+i1___lldiv 3538 0 CODE 0 text49 dist/default/debug\Tetris_Slave.X.debug.o
+memmove@d1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+memmove@s1 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1___lmul@product 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_Lo_ISR 18 0 CODE 0 intcodelo dist/default/debug\Tetris_Slave.X.debug.o
+_MAX7219_Init 3A40 0 CODE 0 text38 dist/default/debug\Tetris_Slave.X.debug.o
+update_display@pattern_farthest 94 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_onReadChar 26DE 0 CODE 0 text46 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_onReadLine 4084 0 CODE 0 text45 dist/default/debug\Tetris_Slave.X.debug.o
+update_display@i 99 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_INTCON2bits FF1 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+___lldiv@counter 96 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lintcodelo 18 0 CODE 0 intcodelo dist/default/debug\Tetris_Slave.X.debug.o
+set_current_block@b 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+set_current_block@i 94 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+set_current_block@j 96 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1check_for_full_rows@j_1059 55 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1check_for_full_rows@j_1060 51 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_vfpfcnvrt 1A1A 0 CODE 0 text63 dist/default/debug\Tetris_Slave.X.debug.o
+i1reset_game@i B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1reset_game@j D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+start_initialization 35DC 0 CODE 0 cinit dist/default/debug\Tetris_Slave.X.debug.o
+_display_matrix 200 0 BANK2 1 bssBANK2 dist/default/debug\Tetris_Slave.X.debug.o
+_OSCCON FD3 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1vfpfcnvrt@c 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_TRISBbits F93 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_TRISCbits F94 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_TRISDbits F95 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+___aldiv@quotient 94 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+___lldiv@dividend 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1_solidify_current_block 2810 0 CODE 0 text52 dist/default/debug\Tetris_Slave.X.debug.o
+i1music_restart@preload 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_reset_game 37AA 0 CODE 0 text53 dist/default/debug\Tetris_Slave.X.debug.o
+___rparam_used 1 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_memset 3F84 0 CODE 0 text70 dist/default/debug\Tetris_Slave.X.debug.o
+i1sprintf@f 37 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1sprintf@s 30 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+onReadChar@c 59 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1vfpfcnvrt@done 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_serialBegin 1BC4 0 CODE 0 text2 dist/default/debug\Tetris_Slave.X.debug.o
+_SPBRGH FB0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__pcstackBANK0 80 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__pcstackBANK1 1F0 0 BANK1 1 cstackBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+__pcstackBANK3 300 0 BANK3 1 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+_IPR1bits F9F 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_noTone 407E 0 CODE 0 text6 dist/default/debug\Tetris_Slave.X.debug.o
+i1_compose_frame 164E 0 CODE 0 text50 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_serialPrint 383A 0 CODE 0 text22 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_serialWrite 4036 0 CODE 0 text43 dist/default/debug\Tetris_Slave.X.debug.o
+_MAX7219_Write_All 3DF8 0 CODE 0 text39 dist/default/debug\Tetris_Slave.X.debug.o
+serialPrint@i 8E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+check_for_full_rows@row_is_full 302 0 BANK3 1 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_vfprintf 3F0C 0 CODE 0 text62 dist/default/debug\Tetris_Slave.X.debug.o
+_Timer2_PWM_Init 4036 0 CODE 0 text34 dist/default/debug\Tetris_Slave.X.debug.o
+rotate_current_block@temp_1041 94 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+rotate_current_block@temp_1042 95 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+isa$xinst 0 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+MAX7219_Write_All@reg 90 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1___awdiv@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+attempt_hold_block@type_to_spawn AC 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+fputc@fp 8C 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1___lmul 3C6C 0 CODE 0 text57 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_processSerialReceive 1D58 0 CODE 0 text42 dist/default/debug\Tetris_Slave.X.debug.o
+vfpfcnvrt@done AB 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug\Tetris_Slave.X.debug.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug\Tetris_Slave.X.debug.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug\Tetris_Slave.X.debug.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug\Tetris_Slave.X.debug.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug\Tetris_Slave.X.debug.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug\Tetris_Slave.X.debug.o
+__Hcinit 0 0 ABS 0 cinit dist/default/debug\Tetris_Slave.X.debug.o
+__Hconst 0 0 CONST 0 const dist/default/debug\Tetris_Slave.X.debug.o
+__Hidata 0 0 CODE 0 idata dist/default/debug\Tetris_Slave.X.debug.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/default/debug\Tetris_Slave.X.debug.o
+_compose_frame 127A 0 CODE 0 text12 dist/default/debug\Tetris_Slave.X.debug.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Tetris_Slave.X.debug.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/debug\Tetris_Slave.X.debug.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\Tetris_Slave.X.debug.o
+__Hstack 0 0 STACK 2 stack dist/default/debug\Tetris_Slave.X.debug.o
+__Htext0 0 0 ABS 0 text0 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext1 0 0 ABS 0 text1 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext2 0 0 ABS 0 text2 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext3 0 0 ABS 0 text3 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext4 0 0 ABS 0 text4 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext5 0 0 ABS 0 text5 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext6 0 0 ABS 0 text6 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext7 0 0 ABS 0 text7 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext8 0 0 ABS 0 text8 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext9 0 0 ABS 0 text9 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_sprintf 3F4C 0 CODE 0 text61 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_current_block_is_in_illegal_position 219C 0 CODE 0 text27 dist/default/debug\Tetris_Slave.X.debug.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Tetris_Slave.X.debug.o
+__Hbigram 0 0 ABS 0 bigram dist/default/debug\Tetris_Slave.X.debug.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/debug\Tetris_Slave.X.debug.o
+__smallconst 7664 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_sprintf 3ECA 0 CODE 0 text15 dist/default/debug\Tetris_Slave.X.debug.o
+__Hcomram 0 0 ABS 0 comram dist/default/debug\Tetris_Slave.X.debug.o
+__Hconfig 30000E 0 CONFIG 4 config dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1___lmul 3CD6 0 CODE 0 text57 dist/default/debug\Tetris_Slave.X.debug.o
+i1update_score@i 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1update_score@n 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1update_score@x 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_serialPrint 3952 0 CODE 0 text69 dist/default/debug\Tetris_Slave.X.debug.o
+serialBegin@baudRate 98 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug\Tetris_Slave.X.debug.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug\Tetris_Slave.X.debug.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug\Tetris_Slave.X.debug.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug\Tetris_Slave.X.debug.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug\Tetris_Slave.X.debug.o
+__Lcinit 0 0 ABS 0 cinit dist/default/debug\Tetris_Slave.X.debug.o
+__Lconst 0 0 CONST 0 const dist/default/debug\Tetris_Slave.X.debug.o
+__Lidata 0 0 CODE 0 idata dist/default/debug\Tetris_Slave.X.debug.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/debug\Tetris_Slave.X.debug.o
+_NUM_NOTE F2 0 BANK0 1 dataBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Tetris_Slave.X.debug.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/debug\Tetris_Slave.X.debug.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\Tetris_Slave.X.debug.o
+__Lstack 0 0 STACK 2 stack dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext0 0 0 ABS 0 text0 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext1 0 0 ABS 0 text1 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext2 0 0 ABS 0 text2 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext3 0 0 ABS 0 text3 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext4 0 0 ABS 0 text4 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext5 0 0 ABS 0 text5 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext6 0 0 ABS 0 text6 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext7 0 0 ABS 0 text7 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext8 0 0 ABS 0 text8 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext9 0 0 ABS 0 text9 dist/default/debug\Tetris_Slave.X.debug.o
+music_restart@preload A5 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+MAX7219_Init@i 93 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\Tetris_Slave.X.debug.o
+_drop_block_from_sky 7FC 0 CODE 0 text30 dist/default/debug\Tetris_Slave.X.debug.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Tetris_Slave.X.debug.o
+_PORTBbits F81 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_INTCONbits FF2 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_MAX7219_Init 3AB4 0 CODE 0 text38 dist/default/debug\Tetris_Slave.X.debug.o
+attempt_hold_block@type_to_hold AD 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Habs1 0 0 ABS 0 abs1 dist/default/debug\Tetris_Slave.X.debug.o
+__Hdata 0 0 ABS 0 data dist/default/debug\Tetris_Slave.X.debug.o
+__Hheap 0 0 HEAP 7 heap dist/default/debug\Tetris_Slave.X.debug.o
+__Hinit 24A 0 CODE 0 init dist/default/debug\Tetris_Slave.X.debug.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\Tetris_Slave.X.debug.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\Tetris_Slave.X.debug.o
+__Htemp 7D 0 COMRAM 1 temp dist/default/debug\Tetris_Slave.X.debug.o
+__Htext 0 0 ABS 0 text dist/default/debug\Tetris_Slave.X.debug.o
+__Labs1 0 0 ABS 0 abs1 dist/default/debug\Tetris_Slave.X.debug.o
+__Ldata 0 0 ABS 0 data dist/default/debug\Tetris_Slave.X.debug.o
+__Lheap 0 0 HEAP 7 heap dist/default/debug\Tetris_Slave.X.debug.o
+__Linit 246 0 CODE 0 init dist/default/debug\Tetris_Slave.X.debug.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\Tetris_Slave.X.debug.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\Tetris_Slave.X.debug.o
+__Ltemp 7C 0 COMRAM 1 temp dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext 0 0 ABS 0 text dist/default/debug\Tetris_Slave.X.debug.o
+i1_sprintf 3F0C 0 CODE 0 text61 dist/default/debug\Tetris_Slave.X.debug.o
+serialBegin@receiveInterruptPriority 9C 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+memset@dest 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_load_block_from_type 2E08 0 CODE 0 text29 dist/default/debug\Tetris_Slave.X.debug.o
+display_marquee_slice@start_col A2 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+memset@c 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+memset@n 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+memset@p 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+___lmul 3B94 0 CODE 0 text36 dist/default/debug\Tetris_Slave.X.debug.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+__LcstackBANK3 0 0 ABS 0 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+serialWrite@c 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+Lo_ISR@counts 80 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+int$flags 7C 0 COMRAM 1 temp dist/default/debug\Tetris_Slave.X.debug.o
+_Timer0_Init 2B44 0 CODE 0 text35 dist/default/debug\Tetris_Slave.X.debug.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+solidify_current_block@i 92 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+solidify_current_block@j 94 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+solidify_current_block@x 8E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+solidify_current_block@y 90 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+update_score@i 8E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+update_score@n 8C 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+update_score@x 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Hintret 0 0 ABS 0 intret dist/default/debug\Tetris_Slave.X.debug.o
+__Hirdata 0 0 CODE 0 irdata dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_marquee 7B65 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+_PR2 FCB 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__S0 7DC0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__S1 30D 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__S4 0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__S5 0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_abs 3F84 0 CODE 0 text20 dist/default/debug\Tetris_Slave.X.debug.o
+_bag E4 0 BANK0 1 dataBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1___lmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+update_display@col_1148 97 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+compose_frame@dx 94 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+compose_frame@dy 92 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1current_block_is_in_illegal_position@i 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1current_block_is_in_illegal_position@j B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1current_block_is_in_illegal_position@x 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1current_block_is_in_illegal_position@y 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_memmove 1ED0 0 CODE 0 text71 dist/default/debug\Tetris_Slave.X.debug.o
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Tetris_Slave.X.debug.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Tetris_Slave.X.debug.o
+sprintf@fmt BB 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_current_block 120 0 BANK1 1 bssBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_abs 3FBA 0 CODE 0 text20 dist/default/debug\Tetris_Slave.X.debug.o
+generate_garbage@line_count 57 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1sprintf@ap 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+Timer0_Init@counts 9A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+memmove@c 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+memmove@d 1D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+memmove@n 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+memmove@s 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__Lintentry 0 0 ABS 0 intentry dist/default/debug\Tetris_Slave.X.debug.o
+___lldiv@divisor 8E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_music_restart 259A 0 CODE 0 text47 dist/default/debug\Tetris_Slave.X.debug.o
+__Hramtop 600 0 RAM 0 ramtop dist/default/debug\Tetris_Slave.X.debug.o
+i1vfpfcnvrt@convarg 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+rotate_current_block@temp 93 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/debug\Tetris_Slave.X.debug.o
+_solidify_current_block 26DE 0 CODE 0 text11 dist/default/debug\Tetris_Slave.X.debug.o
+__pdataBANK0 E4 0 BANK0 1 dataBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__pdataBANK1 180 0 BANK1 1 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+__activetblptr 2 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug\Tetris_Slave.X.debug.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+__LbssBANK2 0 0 ABS 0 bssBANK2 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext10 0 0 ABS 0 text10 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext11 0 0 ABS 0 text11 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext12 0 0 ABS 0 text12 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext13 0 0 ABS 0 text13 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext14 0 0 ABS 0 text14 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext15 0 0 ABS 0 text15 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext16 0 0 ABS 0 text16 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext17 0 0 ABS 0 text17 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext18 0 0 ABS 0 text18 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext19 0 0 ABS 0 text19 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext20 0 0 ABS 0 text20 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext21 0 0 ABS 0 text21 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext22 0 0 ABS 0 text22 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext23 0 0 ABS 0 text23 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext24 0 0 ABS 0 text24 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext25 0 0 ABS 0 text25 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext26 0 0 ABS 0 text26 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext27 0 0 ABS 0 text27 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext28 0 0 ABS 0 text28 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext29 0 0 ABS 0 text29 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext30 0 0 ABS 0 text30 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext31 0 0 ABS 0 text31 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext32 0 0 ABS 0 text32 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext33 0 0 ABS 0 text33 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext34 0 0 ABS 0 text34 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext35 0 0 ABS 0 text35 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext36 0 0 ABS 0 text36 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext37 0 0 ABS 0 text37 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext38 0 0 ABS 0 text38 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext39 0 0 ABS 0 text39 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext40 0 0 ABS 0 text40 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext42 0 0 ABS 0 text42 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext43 0 0 ABS 0 text43 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext44 0 0 ABS 0 text44 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext45 0 0 ABS 0 text45 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext46 0 0 ABS 0 text46 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext47 0 0 ABS 0 text47 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext48 0 0 ABS 0 text48 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext49 0 0 ABS 0 text49 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext50 0 0 ABS 0 text50 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext51 0 0 ABS 0 text51 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext52 0 0 ABS 0 text52 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext53 0 0 ABS 0 text53 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext54 0 0 ABS 0 text54 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext55 0 0 ABS 0 text55 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext56 0 0 ABS 0 text56 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext57 0 0 ABS 0 text57 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext58 0 0 ABS 0 text58 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext59 0 0 ABS 0 text59 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext60 0 0 ABS 0 text60 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext61 0 0 ABS 0 text61 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext62 0 0 ABS 0 text62 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext63 0 0 ABS 0 text63 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext64 0 0 ABS 0 text64 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext65 0 0 ABS 0 text65 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext66 0 0 ABS 0 text66 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext67 0 0 ABS 0 text67 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext68 0 0 ABS 0 text68 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext69 0 0 ABS 0 text69 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext70 0 0 ABS 0 text70 dist/default/debug\Tetris_Slave.X.debug.o
+__Htext71 0 0 ABS 0 text71 dist/default/debug\Tetris_Slave.X.debug.o
+serialPrint@text 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_rotate_current_block 59E 0 CODE 0 text26 dist/default/debug\Tetris_Slave.X.debug.o
+vfpfcnvrt@fmt A7 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1___awdiv@quotient 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+SPI_Write_Byte@data 8C 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+___awmod@counter A0 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_RCSTAbits FAB 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_PIE1bits F9D 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+i1___awmod@sign 18 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_memset 3F4C 0 CODE 0 text70 dist/default/debug\Tetris_Slave.X.debug.o
+i1___awmod@dividend 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__ptext10 3D3C 0 CODE 0 text10 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext11 26DE 0 CODE 0 text11 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext12 127A 0 CODE 0 text12 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext13 59E 0 CODE 0 text13 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext14 3952 0 CODE 0 text14 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext15 3E86 0 CODE 0 text15 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext16 3E40 0 CODE 0 text16 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext17 1464 0 CODE 0 text17 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext18 3060 0 CODE 0 text18 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext19 4080 0 CODE 0 text19 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext20 3F84 0 CODE 0 text20 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext21 2EDA 0 CODE 0 text21 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext22 37AA 0 CODE 0 text22 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext23 2D2C 0 CODE 0 text23 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext24 1ED0 0 CODE 0 text24 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext25 E7A 0 CODE 0 text25 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext26 24A 0 CODE 0 text26 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext27 2044 0 CODE 0 text27 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext28 3CD6 0 CODE 0 text28 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext29 2E08 0 CODE 0 text29 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext30 7FC 0 CODE 0 text30 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext31 31D6 0 CODE 0 text31 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext32 3B24 0 CODE 0 text32 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext33 3286 0 CODE 0 text33 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext34 4036 0 CODE 0 text34 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext35 2B44 0 CODE 0 text35 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext36 3B94 0 CODE 0 text36 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext37 400A 0 CODE 0 text37 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext38 3A40 0 CODE 0 text38 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext39 3DF8 0 CODE 0 text39 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext40 3D9C 0 CODE 0 text40 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext42 1BC4 0 CODE 0 text42 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext43 4020 0 CODE 0 text43 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext44 4048 0 CODE 0 text44 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext45 4082 0 CODE 0 text45 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext46 259A 0 CODE 0 text46 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext47 2448 0 CODE 0 text47 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext48 2C3A 0 CODE 0 text48 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext49 3538 0 CODE 0 text49 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext50 164E 0 CODE 0 text50 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext51 383A 0 CODE 0 text51 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext52 2810 0 CODE 0 text52 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext53 3712 0 CODE 0 text53 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext54 A2A 0 CODE 0 text54 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext55 3336 0 CODE 0 text55 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext56 3C00 0 CODE 0 text56 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext57 3C6C 0 CODE 0 text57 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext58 219C 0 CODE 0 text58 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext59 C54 0 CODE 0 text59 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext60 39CA 0 CODE 0 text60 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext61 3F0C 0 CODE 0 text61 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext62 3ECA 0 CODE 0 text62 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext63 1838 0 CODE 0 text63 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext64 311C 0 CODE 0 text64 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext65 4084 0 CODE 0 text65 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext66 3FBA 0 CODE 0 text66 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext67 33E4 0 CODE 0 text67 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext68 2F9E 0 CODE 0 text68 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext69 38C8 0 CODE 0 text69 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext70 3F4C 0 CODE 0 text70 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext71 1D58 0 CODE 0 text71 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_drop_block_from_sky C54 0 CODE 0 text54 dist/default/debug\Tetris_Slave.X.debug.o
+_noTone 4076 0 CODE 0 text6 dist/default/debug\Tetris_Slave.X.debug.o
+display_marquee_slice@c B0 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+display_marquee_slice@r AE 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+___aldiv 2942 0 CODE 0 text3 dist/default/debug\Tetris_Slave.X.debug.o
+___awdiv 2EDA 0 CODE 0 text21 dist/default/debug\Tetris_Slave.X.debug.o
+___awmod 3286 0 CODE 0 text33 dist/default/debug\Tetris_Slave.X.debug.o
+___lldiv 3492 0 CODE 0 text9 dist/default/debug\Tetris_Slave.X.debug.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Tetris_Slave.X.debug.o
+__Lbigram 0 0 ABS 0 bigram dist/default/debug\Tetris_Slave.X.debug.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/debug\Tetris_Slave.X.debug.o
+___lmul@multiplier 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1tone@pr2 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_SPI_Write_Byte 3D9C 0 CODE 0 text40 dist/default/debug\Tetris_Slave.X.debug.o
+i1tone@duty 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1tone@freq E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+drop_block_from_sky@i_1071 A8 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+?_rand 96 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lcomram 0 0 ABS 0 comram dist/default/debug\Tetris_Slave.X.debug.o
+__Lconfig 0 0 CONFIG 4 config dist/default/debug\Tetris_Slave.X.debug.o
+_update_score 3952 0 CODE 0 text14 dist/default/debug\Tetris_Slave.X.debug.o
+i1___awdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_block_I 1E0 0 BANK1 1 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+_block_J 190 0 BANK1 1 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+_block_L 180 0 BANK1 1 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+_block_O 1D0 0 BANK1 1 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+_block_S 1B0 0 BANK1 1 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+_block_T 1C0 0 BANK1 1 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+_block_Z 1A0 0 BANK1 1 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+_LATCbits F8B 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_LATDbits F8C 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Lsivt_hi 0 0 CODE 0 sivt_hi dist/default/debug\Tetris_Slave.X.debug.o
+__Lsivt_lo 246 0 CODE 0 sivt_lo dist/default/debug\Tetris_Slave.X.debug.o
+compose_frame@c 98 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+compose_frame@r 96 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_fputc 31D6 0 CODE 0 text64 dist/default/debug\Tetris_Slave.X.debug.o
+music_restart@counts A7 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1___awdiv@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_putch 4086 0 CODE 0 text65 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_drop_block_from_sky A2A 0 CODE 0 text30 dist/default/debug\Tetris_Slave.X.debug.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\Tetris_Slave.X.debug.o
+music_restart@_tmp_interval A3 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+___inthi_stack_hi 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+___inthi_stack_lo 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+i1drop_block_from_sky@i 1D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1drop_block_from_sky@j 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1drop_block_from_sky@r 21 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+srand@s 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+?i1___lmul 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\Tetris_Slave.X.debug.o
+isa$std 1 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+serialBegin@baudRateGenerator 9E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1_drop_block_from_sky A2A 0 CODE 0 text54 dist/default/debug\Tetris_Slave.X.debug.o
+i1fputc@c 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+?i1_rand D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+drop_block_from_sky@temp A2 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1_music_restart 2448 0 CODE 0 text47 dist/default/debug\Tetris_Slave.X.debug.o
+i1_current_block_is_in_illegal_position 219C 0 CODE 0 text58 dist/default/debug\Tetris_Slave.X.debug.o
+stackhi 0 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+stacklo 0 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+_serialLastChar 74 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+Lo_ISR@preload 88 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lintcode 8 0 CODE 0 intcode dist/default/debug\Tetris_Slave.X.debug.o
+_block_location_x D7 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_block_location_y D5 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_compose_frame 1464 0 CODE 0 text12 dist/default/debug\Tetris_Slave.X.debug.o
+Lo_ISR@current_note_val 84 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lintret 0 0 ABS 0 intret dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_current_block_is_in_illegal_position 22F4 0 CODE 0 text58 dist/default/debug\Tetris_Slave.X.debug.o
+_bag_index 7A 0 COMRAM 1 dataCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__Lirdata 0 0 CODE 0 irdata dist/default/debug\Tetris_Slave.X.debug.o
+_serialBuffer 130 0 BANK1 1 bssBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+i1___lldiv@counter D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_padoru_note 7D57 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+__Lspace_0 0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Lspace_1 0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Lspace_2 0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Lspace_4 0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__pbssCOMRAM 6A 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1music_restart@_tmp_interval 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+__HcstackBANK3 0 0 ABS 0 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+i1solidify_current_block@i 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1solidify_current_block@j B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1solidify_current_block@x 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1solidify_current_block@y 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+Lo_ISR@_tmp_interval 86 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_PIR1bits F9E 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+?i1_vfprintf 2A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+vfpfcnvrt@convarg AE 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_music_restart 22F4 0 CODE 0 text7 dist/default/debug\Tetris_Slave.X.debug.o
+i1___lldiv@quotient 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+end_of_initialization 366C 0 CODE 0 cinit dist/default/debug\Tetris_Slave.X.debug.o
+load_block_from_type@t 9A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Tetris_Slave.X.debug.o
+__Hintentry 0 0 ABS 0 intentry dist/default/debug\Tetris_Slave.X.debug.o
+_RCONbits FD0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+fputc@c 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+___awdiv@quotient 90 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+?___aldiv 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+?___awdiv 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+?___awmod 9C 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_generate_garbage 383A 0 CODE 0 text51 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_SPI_Write_Byte 3DF8 0 CODE 0 text40 dist/default/debug\Tetris_Slave.X.debug.o
+MAX7219_Write_All@data 8F 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+?___lldiv 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_solidify_current_block 2942 0 CODE 0 text52 dist/default/debug\Tetris_Slave.X.debug.o
+vfprintf@fmt B4 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_reset_game 367A 0 CODE 0 text4 dist/default/debug\Tetris_Slave.X.debug.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/debug\Tetris_Slave.X.debug.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__HbssBANK1 0 0 ABS 0 bssBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+__HbssBANK2 0 0 ABS 0 bssBANK2 dist/default/debug\Tetris_Slave.X.debug.o
+___awmod@dividend 9C 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_game_step 3D9C 0 CODE 0 text10 dist/default/debug\Tetris_Slave.X.debug.o
+__Lramtop 600 0 RAM 0 ramtop dist/default/debug\Tetris_Slave.X.debug.o
+_prev_rb0 73 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_prev_rb1 72 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_prev_rb2 71 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_prev_rb3 70 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_prev_rb4 6F 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/debug\Tetris_Slave.X.debug.o
+__pcinit 35DC 0 CODE 0 cinit dist/default/debug\Tetris_Slave.X.debug.o
+drop_block_from_sky@i A6 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+drop_block_from_sky@j A4 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+drop_block_from_sky@r AA 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+vfpfcnvrt@ap A8 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+vfpfcnvrt@cp AC 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+vfpfcnvrt@fp A6 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+compose_frame@c_1096 9C 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext0 108C 0 CODE 0 text0 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext1 3FEE 0 CODE 0 text1 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext2 1A1A 0 CODE 0 text2 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext3 2942 0 CODE 0 text3 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext4 367A 0 CODE 0 text4 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext5 406C 0 CODE 0 text5 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext6 4076 0 CODE 0 text6 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext7 22F4 0 CODE 0 text7 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext8 2A4E 0 CODE 0 text8 dist/default/debug\Tetris_Slave.X.debug.o
+__ptext9 3492 0 CODE 0 text9 dist/default/debug\Tetris_Slave.X.debug.o
+_marquee_offset D1 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug\Tetris_Slave.X.debug.o
+vfprintf@ap B6 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+vfprintf@fp B3 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+vfprintf@cfmt B7 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext10 0 0 ABS 0 text10 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext11 0 0 ABS 0 text11 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext12 0 0 ABS 0 text12 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext13 0 0 ABS 0 text13 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext14 0 0 ABS 0 text14 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext15 0 0 ABS 0 text15 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext16 0 0 ABS 0 text16 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext17 0 0 ABS 0 text17 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext18 0 0 ABS 0 text18 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext19 0 0 ABS 0 text19 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext20 0 0 ABS 0 text20 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext21 0 0 ABS 0 text21 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext22 0 0 ABS 0 text22 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext23 0 0 ABS 0 text23 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext24 0 0 ABS 0 text24 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext25 0 0 ABS 0 text25 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext26 0 0 ABS 0 text26 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext27 0 0 ABS 0 text27 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext28 0 0 ABS 0 text28 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext29 0 0 ABS 0 text29 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext30 0 0 ABS 0 text30 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext31 0 0 ABS 0 text31 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext32 0 0 ABS 0 text32 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext33 0 0 ABS 0 text33 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext34 0 0 ABS 0 text34 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext35 0 0 ABS 0 text35 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext36 0 0 ABS 0 text36 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext37 0 0 ABS 0 text37 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext38 0 0 ABS 0 text38 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext39 0 0 ABS 0 text39 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext40 0 0 ABS 0 text40 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext42 0 0 ABS 0 text42 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext43 0 0 ABS 0 text43 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext44 0 0 ABS 0 text44 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext45 0 0 ABS 0 text45 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext46 0 0 ABS 0 text46 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext47 0 0 ABS 0 text47 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext48 0 0 ABS 0 text48 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext49 0 0 ABS 0 text49 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext50 0 0 ABS 0 text50 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext51 0 0 ABS 0 text51 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext52 0 0 ABS 0 text52 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext53 0 0 ABS 0 text53 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext54 0 0 ABS 0 text54 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext55 0 0 ABS 0 text55 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext56 0 0 ABS 0 text56 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext57 0 0 ABS 0 text57 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext58 0 0 ABS 0 text58 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext59 0 0 ABS 0 text59 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext60 0 0 ABS 0 text60 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext61 0 0 ABS 0 text61 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext62 0 0 ABS 0 text62 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext63 0 0 ABS 0 text63 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext64 0 0 ABS 0 text64 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext65 0 0 ABS 0 text65 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext66 0 0 ABS 0 text66 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext67 0 0 ABS 0 text67 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext68 0 0 ABS 0 text68 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext69 0 0 ABS 0 text69 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext70 0 0 ABS 0 text70 dist/default/debug\Tetris_Slave.X.debug.o
+__Ltext71 0 0 ABS 0 text71 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_display_marquee_slice 2E08 0 CODE 0 text23 dist/default/debug\Tetris_Slave.X.debug.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+___aldiv@dividend 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_sprintf 3E86 0 CODE 0 text15 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_update_score 39CA 0 CODE 0 text14 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_padoru_interval 7D57 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+_vfprintf 3E40 0 CODE 0 text16 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_set_current_block 3286 0 CODE 0 text31 dist/default/debug\Tetris_Slave.X.debug.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/debug\Tetris_Slave.X.debug.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Tetris_Slave.X.debug.o
+i1set_current_block@b 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1set_current_block@i B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1set_current_block@j D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+sprintf@ap BF 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__H__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_rand 3C6C 0 CODE 0 text56 dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_tone 2D2C 0 CODE 0 text48 dist/default/debug\Tetris_Slave.X.debug.o
+_current_block_is_in_illegal_position 2044 0 CODE 0 text27 dist/default/debug\Tetris_Slave.X.debug.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\Tetris_Slave.X.debug.o
+_game_mode D9 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_game_step 3D3C 0 CODE 0 text10 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_vfprintf 3E86 0 CODE 0 text16 dist/default/debug\Tetris_Slave.X.debug.o
+?i1___awdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+?i1___awmod 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+?i1___lldiv 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+___heap_hi 0 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+___heap_lo 0 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+_processSerialReceive 1BC4 0 CODE 0 text42 dist/default/debug\Tetris_Slave.X.debug.o
+___param_bank 0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+___intlo_stack_hi 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+___intlo_stack_lo 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\xcAs2aj8.\driver_tmp_14.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Tetris_Slave.X.debug.o
+_display_marquee_slice 2D2C 0 CODE 0 text23 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of__initialization 366C 0 CODE 0 cinit dist/default/debug\Tetris_Slave.X.debug.o
+___awmod@divisor 9E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_serialPrintfCache 170 0 BANK1 1 bssBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+i1_set_current_block 3336 0 CODE 0 text55 dist/default/debug\Tetris_Slave.X.debug.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\Tetris_Slave.X.debug.o
+_marquee 7665 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+_hold_used_this_turn E0 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__pidataBANK0 405A 0 CODE 0 idataBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__pidataBANK1 3AB4 0 CODE 0 idataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+check_for_full_rows@j_1059 30B 0 BANK3 1 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+check_for_full_rows@j_1060 307 0 BANK3 1 cstackBANK3 dist/default/debug\Tetris_Slave.X.debug.o
+i1serialPrint@i 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_attempt_hold_block 3D3C 0 CODE 0 text28 dist/default/debug\Tetris_Slave.X.debug.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\Tetris_Slave.X.debug.o
+i1music_restart@counts 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+Timer0_Init@_tmp_interval 96 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+___lmul@product 92 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_serialOnReadChar DB 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_serialOnReadLine DD 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_solidify_current_block 2810 0 CODE 0 text11 dist/default/debug\Tetris_Slave.X.debug.o
+___lmul@multiplicand 8E 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__pintcodelo 18 0 CODE 0 intcodelo dist/default/debug\Tetris_Slave.X.debug.o
+_serialRead 4048 0 CODE 0 text44 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_Timer0_Init 2C3A 0 CODE 0 text35 dist/default/debug\Tetris_Slave.X.debug.o
+___lldiv@quotient 92 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_memmove 1D58 0 CODE 0 text71 dist/default/debug\Tetris_Slave.X.debug.o
+i1compose_frame@dx B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1compose_frame@dy 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_reset_game 3712 0 CODE 0 text4 dist/default/debug\Tetris_Slave.X.debug.o
+_TXSTAbits FAC 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__pmediumconst 7664 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+___aldiv@counter 92 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+update_display@pattern_nearest 93 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+vfpfcnvrt@c B2 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1drop_block_from_sky@temp 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+sprintf@f C0 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+sprintf@s B9 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_main 127A 0 CODE 0 text0 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_note 7CF5 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_rand 3B94 0 CODE 0 text32 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_tone 2B44 0 CODE 0 text8 dist/default/debug\Tetris_Slave.X.debug.o
+i1_vfpfcnvrt 1838 0 CODE 0 text63 dist/default/debug\Tetris_Slave.X.debug.o
+_padoru_interval 7CF5 0 MEDIUMCONST 0 mediumconst dist/default/debug\Tetris_Slave.X.debug.o
+compose_frame@r_1095 9A 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+onReadLine@len 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_fputc 311C 0 CODE 0 text18 dist/default/debug\Tetris_Slave.X.debug.o
+?_sprintf B9 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_gap_position D3 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_RCREG FAE 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_SPBRG FAF 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_TMR0H FD7 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_TMR0L FD6 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_TXREG FAD 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_putch 4082 0 CODE 0 text19 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_srand 400A 0 CODE 0 text1 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_generate_garbage 38C8 0 CODE 0 text51 dist/default/debug\Tetris_Slave.X.debug.o
+__HRAM 0 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Hbss 0 0 RAM 1 bss dist/default/debug\Tetris_Slave.X.debug.o
+__Hram 0 0 ABS 0 ram dist/default/debug\Tetris_Slave.X.debug.o
+__Hsfr 0 0 ABS 0 sfr dist/default/debug\Tetris_Slave.X.debug.o
+__LRAM 1 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+__Lbss 0 0 RAM 1 bss dist/default/debug\Tetris_Slave.X.debug.o
+__Lram 0 0 ABS 0 ram dist/default/debug\Tetris_Slave.X.debug.o
+__Lsfr 0 0 ABS 0 sfr dist/default/debug\Tetris_Slave.X.debug.o
+_board 280 0 BANK2 1 bssBANK2 dist/default/debug\Tetris_Slave.X.debug.o
+_flags 6E 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_fputc 3060 0 CODE 0 text18 dist/default/debug\Tetris_Slave.X.debug.o
+_putch 4080 0 CODE 0 text19 dist/default/debug\Tetris_Slave.X.debug.o
+_score 6C 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_srand 3FEE 0 CODE 0 text1 dist/default/debug\Tetris_Slave.X.debug.o
+?i1_abs 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_width CD 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+_check_inputs E7A 0 CODE 0 text25 dist/default/debug\Tetris_Slave.X.debug.o
+_attempt_hold_block 3CD6 0 CODE 0 text28 dist/default/debug\Tetris_Slave.X.debug.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+i1___lldiv@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+tone@pr2 9F 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+i1vfprintf@fmt 2B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+SPI_Write_Byte@i 8D 0 BANK0 1 cstackBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Hsivt_hi 0 0 CODE 0 sivt_hi dist/default/debug\Tetris_Slave.X.debug.o
+__Hsivt_lo 246 0 CODE 0 sivt_lo dist/default/debug\Tetris_Slave.X.debug.o
+__initialization 35DC 0 CODE 0 cinit dist/default/debug\Tetris_Slave.X.debug.o
+_serialBegin 1A1A 0 CODE 0 text2 dist/default/debug\Tetris_Slave.X.debug.o
+__pbssBANK0 CD 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__pbssBANK1 100 0 BANK1 1 bssBANK1 dist/default/debug\Tetris_Slave.X.debug.o
+__pbssBANK2 200 0 BANK2 1 bssBANK2 dist/default/debug\Tetris_Slave.X.debug.o
+__pdataCOMRAM 7A 0 COMRAM 1 dataCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1sprintf@fmt 32 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_T2CONbits FCA 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+_serialPrint 37AA 0 CODE 0 text22 dist/default/debug\Tetris_Slave.X.debug.o
+_serialWrite 4020 0 CODE 0 text43 dist/default/debug\Tetris_Slave.X.debug.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\Tetris_Slave.X.debug.o
+i1vfpfcnvrt@ap 1F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1vfpfcnvrt@cp 23 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1vfpfcnvrt@fp 1D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1serialPrint@text 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Tetris_Slave.X.debug.o
+_note_index 6A 0 COMRAM 1 bssCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+_held_block_type E2 0 BANK0 1 bssBANK0 dist/default/debug\Tetris_Slave.X.debug.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug\Tetris_Slave.X.debug.o
+_set_current_block 31D6 0 CODE 0 text31 dist/default/debug\Tetris_Slave.X.debug.o
+_CCP1CONbits FBD 0 ABS 0 - dist/default/debug\Tetris_Slave.X.debug.o
+i1___awmod@counter 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1compose_frame@c_1096 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1check_for_full_rows@i 53 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1check_for_full_rows@j 4D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+i1check_for_full_rows@n 4F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Tetris_Slave.X.debug.o
+__Hintcode 8 0 CODE 0 intcode dist/default/debug\Tetris_Slave.X.debug.o
+__end_ofi1_abs 3FEE 0 CODE 0 text66 dist/default/debug\Tetris_Slave.X.debug.o
+__end_of_music_restart 2448 0 CODE 0 text7 dist/default/debug\Tetris_Slave.X.debug.o
+?i1_sprintf 30 0 COMRAM 1 cstackCOMRAM dist/default/debug\Tetris_Slave.X.debug.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+intcodelo 0 18 18 4053 1
+text5 0 406C 406C 1A 1
+cstackCOMRAM 1 1 1 7C 1
+cstackBANK0 1 80 80 75 1
+cstackBANK3 1 300 300 D 1
+reset_vec 0 0 0 4 1
+bssBANK1 1 100 100 FC 1
+bssBANK2 1 200 200 100 1
+mediumconst 0 7664 7664 75C 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
