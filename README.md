@@ -1,12 +1,11 @@
 # PIC Tetris 2 You 🎄 - PIC18F4520
 
-Two-player Tetris system built on the **PIC18F4520** microcontroller. Integrating multiple peripheral modules, including SPI, UART, PWM, ADC, and Timers, to create a fully functional gaming experience complete with custom-built mechanical controllers and an alcohol-sensing "post-game" mode.
+Two-player Tetris system built on the **PIC18F4520** microcontroller. Integrating multiple peripheral modules, including SPI, UART, PWM, ADC, and Timers, to create a fully functional gaming experience complete with custom-built mechanical controllers and an alcohol-sensing mode.    
+Keeping the Christmas spirit alive!
 
-## Demo Video (In Traditional Chinese)
+![Picture1](https://github.com/user-attachments/assets/80c694cb-18d3-402a-bd22-c251a2808f7b)
 
-Watch the system in action: [YouTube Demo Link](https://www.youtube.com/watch?v=6w2MI4Ak4ps)
-
----
+Demo Video (In Traditional Chinese): [YouTube Demo Link](https://www.youtube.com/watch?v=6w2MI4Ak4ps)
 
 ## Features
 
@@ -22,8 +21,6 @@ Watch the system in action: [YouTube Demo Link](https://www.youtube.com/watch?v=
 
 * **Alcohol Sensing Mode:** Features an MQ-3 Alcohol Sensor that triggers after every Tetris game ends, displaying alcohol concentration levels (LOW/MID/HIGH) on the LED matrix.
 
----
-
 ## Hardware Components
 * **Microcontroller:** 2x Microchip PIC18F4520
 * **Display:** 4x MAX7219 8x8 LED Dot Matrix Modules
@@ -31,8 +28,6 @@ Watch the system in action: [YouTube Demo Link](https://www.youtube.com/watch?v=
 * **Audio:** Passive Buzzer + Potentiometer (for volume)
 * **Inputs:** 5x Gateron Yellow Mechanical Switches (per player)
 * **Chassis:** 3D Printed PLA Case (Designed in SolidWorks)
-
----
 
 ## System Architecture
 
@@ -54,8 +49,6 @@ Watch the system in action: [YouTube Demo Link](https://www.youtube.com/watch?v=
 
 * Reads analog voltage from RA0 to determine intoxication levels, mapped to 8 visual levels on the LED matrix.
 
----
-
 ## Controls
 
 The custom gamepad is mapped to **PORTB (RB0 - RB4)**:
@@ -66,8 +59,6 @@ The custom gamepad is mapped to **PORTB (RB0 - RB4)**:
 * **RB3:** Move Left
 * **RB4:** Hold / Start Game (Master)
 
----
-
 ## Development Environment
 
 * **IDE:** MPLAB X IDE
@@ -77,7 +68,7 @@ The custom gamepad is mapped to **PORTB (RB0 - RB4)**:
 
 
 ---
-Created as a Final Project for the Microcomputer Systems course.
-By 石維廉、曾立呈、蔡宗賢、石浚邑
+> Created as a Final Project for the Microcomputer Systems course.    
+> By 石維廉、曾立呈、蔡宗賢、石浚邑
 
 **Merry Christmas!** 🎅🧤
