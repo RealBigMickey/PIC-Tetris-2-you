@@ -71,7 +71,7 @@ The custom gamepad is mapped to **PORTB (RB0 - RB4)**:
 
 
 ---
-> Created as a Final Project for the Microcomputer Systems course.    
+> Final Project for the course MICROPROCESSOR PRINCIPLES AND APPLICATIONS at NCKU.    
 > By 石維廉、曾立呈、蔡宗賢、石浚邑
 
 **Merry Christmas!** 🎅🧤
