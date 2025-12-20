@@ -5,17 +5,20 @@ Keeping the Christmas spirit alive!
 
 ![Picture1](https://github.com/user-attachments/assets/80c694cb-18d3-402a-bd22-c251a2808f7b)
 
+![Gameplay](https://github.com/RealBigMickey/PIC-Tetris-2-you/blob/181edc87eace612b331e2564e9ffea393e09ea8e/gameplay.gif)
+
+
 Demo Video (In Traditional Chinese): [YouTube Demo Link](https://www.youtube.com/watch?v=6w2MI4Ak4ps)
 
 ## Features
 
-* **Real-time Dual Battle:** Two PIC18F4520 units communicate via **UART**. Clearing lines on one device sends "garbage lines" to the opponent.
+* **Real-time Dual Player:** Two PIC18F4520 communicate via UART. Clearing lines on one device sends garbage lines to the other.
 * **Master/Slave Synchronization:** A Master-Slave architecture ensures both games start simultaneously with synchronized scrolling titles.
-* **Custom Hardware Interface:** - Dual MAX7219 8x8 LED Dot Matrix displays per player (16x8 total resolution).
+* **Custom Hardware Interface:** Dual MAX7219 8x8 LED Dot Matrix displays using SPI.
 * Custom 3D-printed controllers with Gateron Yellow mechanical switches.
 
 
-* **Dynamic Audio:** - Integrated buzzer playing the classic Tetris Theme and Christmas carols.
+* **Dynamic Audio:** Integrated buzzer playing the classic Tetris Theme and Christmas carols.
 * Volume control via potentiometer.
 
 
@@ -34,7 +37,7 @@ Demo Video (In Traditional Chinese): [YouTube Demo Link](https://www.youtube.com
 ### 1. Communication (UART)
 
 * **Master:** Handles game mode switching, syncs start signals ('S'), and sends scrolling text offsets.
-* **Interaction:** Both units send characters ('1'-'4') to trigger garbage lines on the opposing screen.
+* **Interaction:** Both units send characters '1' ~ '4' to trigger garbage lines on the opposing screen.
 
 ### 2. Display (SPI)
 
@@ -72,3 +75,4 @@ The custom gamepad is mapped to **PORTB (RB0 - RB4)**:
 > By 石維廉、曾立呈、蔡宗賢、石浚邑
 
 **Merry Christmas!** 🎅🧤
+
